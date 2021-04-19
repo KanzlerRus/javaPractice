@@ -11,6 +11,18 @@ public class Alphabet {
         int rusCount = 33 - 1;      // Кол-во симовлов в русском алфавите - пропускаем Ё(1025)
         printAlphabet(rusCh, rusCount);
 
+        // Более изящный метод вывода алфавита
+        printAlphabet2('A', 'Z');
+        printAlphabet2('А', 'Я');
+
+    }
+
+    private static void printAlphabet2(char start, char end) {
+        while (start <= end) {
+            System.out.print(start + " ");
+            start++;
+        }
+        System.out.println();
     }
 
     private static void printAlphabet(int indexStart, int count) {
@@ -19,4 +31,6 @@ public class Alphabet {
         }
         System.out.println();
     }
+
+
 }
