@@ -1,4 +1,4 @@
-package net.kanzler.File;
+package net.kanzler.file;
 
 import java.io.File;
 import java.io.IOException;
