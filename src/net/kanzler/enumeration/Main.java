@@ -4,6 +4,15 @@ public class Main {
     public static void main(String[] args) {
         example1();
         example2();
+        example3();
+    }
+
+    private static void example3() {
+        Season[] seasons = Season.values();
+        for (Season el : seasons) {
+            int counter = el.ordinal();
+            System.out.printf("%d, %s\n", el.ordinal(), el);
+        }
     }
 
     private static void example2() {
