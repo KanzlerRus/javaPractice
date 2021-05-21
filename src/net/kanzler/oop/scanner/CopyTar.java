@@ -1,4 +1,4 @@
-package net.kanzler.scanner;
+package net.kanzler.oop.scanner;
 
 import java.io.*;
 

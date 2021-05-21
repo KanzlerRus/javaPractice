@@ -1,8 +1,7 @@
-package net.kanzler.stat;
+package net.kanzler.oop.stat;
 
 
 import static java.lang.Math.*;
-import static java.util.Arrays.*;
 
 public class StaticImport {
     public static void main(String[] args) {

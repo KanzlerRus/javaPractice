@@ -1,4 +1,4 @@
-package net.kanzler.unsigned;
+package net.kanzler.oop.unsigned;
 
 public class Unsigned {
     enum Size {SMALL,BIG};

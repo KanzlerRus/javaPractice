@@ -1,4 +1,4 @@
-package net.kanzler.over;
+package net.kanzler.oop.over;
 
 public class Animal {
 

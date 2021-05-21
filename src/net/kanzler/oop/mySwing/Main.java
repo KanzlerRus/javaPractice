@@ -1,4 +1,4 @@
-package net.kanzler.mySwing;
+package net.kanzler.oop.mySwing;
 
 import javax.swing.*;
 import java.awt.*;

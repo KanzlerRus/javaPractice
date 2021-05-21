@@ -1,4 +1,4 @@
-package net.kanzler.funcAPI;
+package net.kanzler.oop.funcAPI;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

@@ -1,4 +1,4 @@
-package net.kanzler.modifiers;
+package net.kanzler.oop.modifiers;
 
 class Main {
     public static void main(String[] args) {

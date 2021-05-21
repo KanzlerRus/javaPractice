@@ -1,4 +1,4 @@
-package net.kanzler.exception;
+package net.kanzler.oop.exception;
 
 import java.io.File;
 import java.io.FileNotFoundException;

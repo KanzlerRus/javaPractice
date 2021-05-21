@@ -1,4 +1,4 @@
-package net.kanzler.arrays;
+package net.kanzler.oop.arrays;
 
 import java.util.Arrays;
 

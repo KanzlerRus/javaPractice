@@ -1,4 +1,4 @@
-package net.kanzler.enumeration;
+package net.kanzler.oop.enumeration;
 
 public enum Season {
     WINTER,

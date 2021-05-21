@@ -1,4 +1,4 @@
-package net.kanzler.bot;
+package net.kanzler.oop.bot;
 
 import java.util.Scanner;
 
