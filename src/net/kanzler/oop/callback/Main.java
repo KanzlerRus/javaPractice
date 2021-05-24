@@ -1,5 +1,7 @@
 package net.kanzler.oop.callback;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
         Button button = new Button(new EventHandler() {
@@ -13,6 +15,27 @@ public class Main {
 
         Button button1 = new Button(new ButtonClickHandler());
         button1.click();
+
+        Button tvButton = new Button(new EventHandler() {
+
+            private boolean on = false;
+
+            @Override
+            public void execute() {
+                if(on) {
+                    System.out.println("TV off");
+                    on = false;
+                } else {
+                    System.out.println("TV on");
+                    on = true;
+                }
+            }
+        });
+
+        tvButton.click();
+        tvButton.click();
+        tvButton.click();
+        tvButton.click();
     }
 }
 
